@@ -17,7 +17,7 @@ jobs:
           caching: "false"
 
       - name: Read the output of the cached step
-        run: echo "Status output: ${{ steps.deps.outputs.status }}"
+        run: echo "${{ steps.deps.outputs.status }}"
 
       - name: Lint code
         run: npm run lint
