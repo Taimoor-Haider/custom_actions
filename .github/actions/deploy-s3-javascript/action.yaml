@@ -1,0 +1,5 @@
+name: Deploy the web app to AWS S3
+description: This is a custom javascript action
+runs:
+  using: "node16"
+  main: "main.js"
