@@ -11,6 +11,9 @@ inputs:
   dist-folder:
     description: The folder containing the deployable files.
     required: true
+outputs:
+  website-url:
+    description: This is the live url of the website.
 runs:
   using: "node16"
   main: "main.js"
